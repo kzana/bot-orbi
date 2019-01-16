@@ -1,0 +1,16 @@
+{
+  "name": "bot-orbi",
+  "version": "1.0.0",
+  "description": "Bot appartenent a Orbiital",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Orbiital",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.4.2",
+    "ffmpeg": "0.0.4",
+    "ytdl-core": "^0.29.1"
+  }
+}
