@@ -9,7 +9,7 @@ const { Client, Attachment } = require('discord.js');
 const prefix = "?";
 
 
-client.login('NTM0MDQ2Mjg4MjQ1OTQ4NDI3.Dxz46Q.Aoa3KppkN14Asle0uxKXtVPZSdI')
+client.login("process.env.TOKEN")
 .then(result=>{
     console.log("Connexion reussie 1", result);   
 }).catch(error => {
